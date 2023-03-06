@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import Resume from './DevAdeotiResume.pdf';
 const Navbar = () => {
 
     const [menutoggle, setMenutoggle] = useState(false);
@@ -19,7 +20,7 @@ const Navbar = () => {
                 <h3 className="logo"><span className="dot"></span> &lt;Adeoti/&gt;</h3>
                 <div className="navlinka desktop">
                 <ul>
-                    <li><a href="DevAdeotiResume.pdf" download>Resume</a></li>
+                    <li><a href={Resume} download>Resume</a></li>
                     <li><a href={githublink}>Github</a></li>
                     <li><a href={linkedIn}>LinkedIn</a></li>
                 </ul>
@@ -27,7 +28,7 @@ const Navbar = () => {
                 {menutoggle && 
                 (<div className="navlinka mobile">
                 <ul>
-                    <li><a href="DevAdeotiResume.pdf" download>Resume</a></li>
+                    <li><a href={Resume} download>Resume</a></li>
                     <li><a href={githublink}>Github</a></li>
                     <li><a href={linkedIn}>LinkedIn</a></li>
                 </ul>

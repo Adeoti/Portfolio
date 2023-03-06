@@ -7,8 +7,8 @@ const Projects = ({title, subtitle, desc, arran, linklive,linkcode, image}) => {
                 <div className="projectsingle__image"> 
                 <img src={image} />
                 <div className="details__cta mini">
-                    <a href={linklive}>&uArr; See Live</a>
-                        <a href={linkcode}>&lt;/&gt; Source code</a>
+                    <a href={linklive} target="_blank">&uArr; See Live</a>
+                        <a href={linkcode} target="_blank">&lt;/&gt; Source code</a>
                     </div>
                 </div>
                 <div className="projectsingle__details"> 
@@ -18,8 +18,8 @@ const Projects = ({title, subtitle, desc, arran, linklive,linkcode, image}) => {
                      <p className="desc">{desc}</p>
                     </div>
                     <div className="details__cta maxi">
-                    <a href={linklive}>&uArr; See Live</a>
-                        <a href={linkcode}>&lt;/&gt; Source code</a>
+                    <a href={linklive} target="_blank">&uArr; See Live</a>
+                        <a href={linkcode} target="_blank">&lt;/&gt; Source code</a>
                     </div>
                  </div>
               
@@ -34,15 +34,15 @@ const Projects = ({title, subtitle, desc, arran, linklive,linkcode, image}) => {
                     <p className="desc">{desc}</p>  
                     </div>
                     <div className="details__cta maxi">
-                    <a href={linklive}>&uArr; See Live</a>
-                        <a href={linkcode}>&lt;/&gt; Source code</a>
+                    <a href={linklive} target="_blank">&uArr; See Live</a>
+                        <a href={linkcode} target="_blank">&lt;/&gt; Source code</a>
                     </div>
               </div>
               <div className="projectsingle__image">
                 <img src={image} alt="My Image"/>
                 <div className="details__cta mini">
-                    <a href={linklive}>&uArr; See Live</a>
-                        <a href={linkcode}>&lt;/&gt; Source code</a>
+                    <a href={linklive} target="_blank">&uArr; See Live</a>
+                        <a href={linkcode} target="_blank">&lt;/&gt; Source code</a>
                     </div>
               </div>
                 </>
