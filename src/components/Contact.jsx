@@ -1,9 +1,9 @@
 import {useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
-const Contact = () => {
+    const Contact = () => {
     const [emailsent, setEmailsent] = useState(false);
     const [sendMessageBtn, setSendMessageBtn] = useState('Send Message');
-   const contactme = useRef();
+    const contactme = useRef();
    
     const messagingStatus = () => {
         const formFields = contactme.current.querySelectorAll('input, textarea');
