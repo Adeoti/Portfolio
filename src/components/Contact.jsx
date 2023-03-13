@@ -1,5 +1,6 @@
 import {useRef, useState} from 'react';
-import emailjs from '@emailjs/browser';
+import emailjs from 'emailjs-com';
+
     const Contact = () => {
     const [emailsent, setEmailsent] = useState(false);
     const [sendMessageBtn, setSendMessageBtn] = useState('Send Message');
