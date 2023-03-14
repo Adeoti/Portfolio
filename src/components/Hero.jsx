@@ -14,7 +14,7 @@ const Hero = () => {
                         transition={{duration:1}}>Hey,  <br/>I'm <span className="linemark">Adeoti</span> Nurudeen.</motion.h3>
                         
                         <motion.p
-                        initial={{x:400}}
+                        initial={{x:410}}
                         animate={{x:0}}
                         transition={{duration:1.2}}>
                             A Frontend Developer with over 9 years of coding and design experience.
