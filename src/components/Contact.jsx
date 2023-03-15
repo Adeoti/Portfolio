@@ -1,5 +1,7 @@
 import {useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee,  faHeart} from '@fortawesome/free-solid-svg-icons'
 
     const Contact = () => {
     const [emailsent, setEmailsent] = useState(false);
@@ -49,14 +51,14 @@ import emailjs from '@emailjs/browser';
                 </div>
                 <div className="contact__break">
                     <div className="contact__words" style={{marginTop:'26px'}}>
-                    <span style={{color:'aqua'}}>&hearts; &hearts;</span> &nbsp;
+                    <span style={{color:'aqua', fontSize:'12px'}}><FontAwesomeIcon icon={faHeart} /> <FontAwesomeIcon icon={faHeart} /></span> &nbsp;
                         Kindly fill the fields and I will respond to you shortly without much delay. I'm looking forward to receieve your offer. You can also reach out to me via my email. 
-                        <span style={{color:'aqua'}}>&hearts; &hearts;</span>
+                        <span style={{color:'aqua', fontSize:'12px'}}><FontAwesomeIcon icon={faHeart} /> <FontAwesomeIcon icon={faHeart} /></span>
                     </div>
                     <div className="contact__form">
                     <form action="" ref={contactme} onSubmit={sendEmail}>
                        
-                    {emailsent && <div className="contact__mailSent">Thanks for reaching out to me. I will get back shortly! <span style={{color:'aqua'}}>&hearts; &hearts;</span></div>}
+                    {emailsent && <div className="contact__mailSent">Thanks for reaching out to me. I will get back shortly! <span style={{color:'aqua', fontSize:'12px'}}><FontAwesomeIcon icon={faHeart} /> <FontAwesomeIcon icon={faHeart} /></span></div>}
                        
                     
                        

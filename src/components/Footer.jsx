@@ -1,4 +1,5 @@
 import Resume from './DevAdeotiResume.pdf';
+
 const Footer = () => {
 
     const linkedIn = "https://www.linkedin.com/in/adeoti-nurudeen-3ab237265";

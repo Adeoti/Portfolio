@@ -1,6 +1,8 @@
 import heroimg from '../images/hero.png';
 import Resume from './DevAdeotiResume.pdf';
 import { motion } from 'framer-motion';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+  import { faCoffee,  faHeart} from '@fortawesome/free-solid-svg-icons'
 
 const Hero = () => {
     return(
@@ -19,7 +21,10 @@ const Hero = () => {
                         transition={{duration:1.2}}>
                             A Frontend Developer with over 9 years of coding and design experience.
                         </motion.p><br/><br/>
-                        <a href={Resume} className="cta">&hearts; Resume</a>
+                        <a href={Resume} className="cta">
+                       <FontAwesomeIcon icon={faHeart} /> Resume</a>
+                        
+                        
                         &nbsp;
                         
                     </section>
