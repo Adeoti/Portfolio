@@ -316,6 +316,10 @@ a.cta{
         grid-template-columns: 1fr 1fr;
         gap: 18px;
     }
+    .projectsingle .projectsingle__image img{
+       
+        min-height:250px;
+    }
 }
 
 @media(max-width:460px){
