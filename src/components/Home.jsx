@@ -1,3 +1,4 @@
+import Aboutme from "./Aboutme";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Hero from "./Hero";
@@ -8,6 +9,7 @@ const Home = () =>{
     return (
         <div>
             <Hero/>
+            <Aboutme/>
             <MyProjects/>
             <Skills/>
             <Contact/>

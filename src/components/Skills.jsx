@@ -8,9 +8,9 @@ import JavaScripticon from '../skillimages/js.png';
 import giticon from '../skillimages/giticonnew.png';
 import photoshopicon from '../skillimages/photoshop.png';
 import sassicon from '../skillimages/sass.png';
-import firebaseicon from '../skillimages/firebase.png';
-import framermotionicon from '../skillimages/framermotionicon.png';
-import materialuiicon from '../skillimages/materialuiicon.png';
+import Wordpressimg from '../skillimages/wordpress.png';
+import typescriptimg from '../skillimages/typescript.png';
+import tailwindimg from '../skillimages/tailwindlogoimg.png';
 
 const  Skills  = () => {
     return(
@@ -33,14 +33,14 @@ const  Skills  = () => {
                     <Skillsicons icon={css3icon} text="CSS 3"/>
                     <Skillsicons icon={JavaScripticon} text="JavaScript"/>
                     <Skillsicons icon={reacticon} text="React"/>
-                    <Skillsicons icon={materialuiicon} text="Material UI"/>
+                    <Skillsicons icon={tailwindimg} text="Tailwind CSS"/>
                     <Skillsicons icon={bootstrapicon} text="Bootstrap"/>
                     <Skillsicons icon={jquery} text="JQuery"/>
                     <Skillsicons icon={giticon} text="Git"/>
-                    <Skillsicons icon={firebaseicon} text="Firebase"/>
+                    <Skillsicons icon={Wordpressimg} text="Wordpress"/>
                     <Skillsicons icon={sassicon} text="SaSS"/>
                     <Skillsicons icon={photoshopicon} text="Photoshop"/>
-                    <Skillsicons icon={framermotionicon} text="Framer Motion"/>
+                    <Skillsicons icon={typescriptimg} text="Typescript"/>
 
                </div>
 

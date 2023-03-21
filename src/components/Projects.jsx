@@ -1,14 +1,18 @@
-const Projects = ({title, subtitle, desc, arran, linklive,linkcode, image}) => {
+const Projects = ({title, sourcecode , subtitle, desc, arran, linklive,linkcode, image}) => {
     return (
         <div className="projectsingle">
            {
             arran == 'right2left' ? (
                 <>
                 <div className="projectsingle__image"> 
+                <div style={{maxHeight:'400px', overflow:'hidden', borderRadius:'20px'}}>
                 <img src={image} />
+                </div>
                 <div className="details__cta mini">
                     <a href={linklive} target="_blank">&uArr; See Live</a>
+                    {sourcecode == 'yes'? (
                         <a href={linkcode} target="_blank">&lt;/&gt; Source code</a>
+                    ) : ''}
                     </div>
                 </div>
                 <div className="projectsingle__details"> 
@@ -19,7 +23,10 @@ const Projects = ({title, subtitle, desc, arran, linklive,linkcode, image}) => {
                     </div>
                     <div className="details__cta maxi">
                     <a href={linklive} target="_blank">&uArr; See Live</a>
+                        
+                    {sourcecode == 'yes'? (
                         <a href={linkcode} target="_blank">&lt;/&gt; Source code</a>
+                    ) : ''}
                     </div>
                  </div>
               
@@ -35,14 +42,21 @@ const Projects = ({title, subtitle, desc, arran, linklive,linkcode, image}) => {
                     </div>
                     <div className="details__cta maxi">
                     <a href={linklive} target="_blank">&uArr; See Live</a>
+                    {sourcecode == 'yes'? (
                         <a href={linkcode} target="_blank">&lt;/&gt; Source code</a>
+                    ) : ''}
                     </div>
               </div>
               <div className="projectsingle__image">
+              <div style={{maxHeight:'400px', overflow:'hidden', borderRadius:'20px'}}>
                 <img src={image} alt="My Image"/>
+              </div>
+                
                 <div className="details__cta mini">
                     <a href={linklive} target="_blank">&uArr; See Live</a>
+                    {sourcecode == 'yes'? (
                         <a href={linkcode} target="_blank">&lt;/&gt; Source code</a>
+                    ) : ''}
                     </div>
               </div>
                 </>

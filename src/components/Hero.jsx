@@ -1,8 +1,8 @@
 import heroimg from '../images/hero.png';
-import Resume from './DevAdeotiResume.pdf';
+import Resume from './DevAdeotiResumej.pdf';
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import { faCoffee,  faHeart} from '@fortawesome/free-solid-svg-icons'
+  import { faHeart} from '@fortawesome/free-solid-svg-icons'
 
 const Hero = () => {
     return(

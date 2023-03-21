@@ -1,6 +1,8 @@
 const Skillsicons = ({icon, text}) => {
     const iconStyle = {
-        width:'80px', 
+        width:'80px',
+        minHeight:'80px',
+        
     };
     return (
         <>

@@ -1,4 +1,4 @@
-import Resume from './DevAdeotiResume.pdf';
+import Resume from './DevAdeotiResumej.pdf';
 
 const Footer = () => {
 

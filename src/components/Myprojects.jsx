@@ -1,10 +1,9 @@
 import Projects from "./Projects";
-import appimage1 from '../images/app1.jpg';
-import appimage2 from  '../images/app2.jpg';
-import portfolioimage from '../images/portcapture.jpg';
-import qrcodeimage from '../images/qrcode.jpg';
-import discordimg from '../images/discordimg.png';
-import dicitimg from  '../images/dicitimg.jpg';
+import qrcodeimage from '../images/qrcodehatchsitelong.png';
+import qsalesapp from '../images/qsalesapp.png';
+import qsaleswebsite from  '../images/qsalessiteimglong.png';
+import asdiimg from '../images/asdiimg.png';
+import dicitimg from '../images/dicitapp.png';
 const  MyProjects  = () => {
     return(
       
@@ -25,10 +24,11 @@ const  MyProjects  = () => {
                 
                 <div className="projects__cards">
                     
-                    <Projects title="DicIt" image={dicitimg} subtitle="A full-functioning dictionary web app" desc="I created this app with react, and styled it with CSS3, using the CSS preprocessor. I then powered its functionality with the open source dictionary API." arran="left2right" linkcode="https://github.com/Adeoti/dictionary" linklive="https://dictit.netlify.app/"/>
-                    <Projects title="Discord Landing Page" image={discordimg} subtitle="A better version of the discord landing page" desc="This is a clone of the popular discord official website. I built this project from the scratch using the combination of react, material ui, photoshop, CSS3 (BEM), and framer motion." arran="right2left" linkcode="https://github.com/Adeoti/discord" linklive="https://discordxy.netlify.app/"/>
-                    <Projects title="QR-Code Hatch" image={qrcodeimage} subtitle="A free web app to generate custom QR codes" desc="For simplicity, I structured this project with HTML5, and styed it using the combination of css3 and Bootstrap. I then handled the interactiveness with jQuery, and the functionality with a javascript library." arran="left2right" linkcode="https://github.com/Adeoti/Qrcode-hatch" linklive="https://www.qrcode-hatch.com/"/>
-                    <Projects title="My Portfolio" image={portfolioimage} subtitle="A single page website (this particular one)" desc="I built this SPA website with react and styled it with CSS3, following the BEM methodology. I handled the smooth animations with Framer Motion, and powered the contact form with Javascript and the emailjs library of react." arran="right2left" linkcode="https://github.com/Adeoti/Portfolio" linklive="https://cutt.ly/adeotinurudeen"/>  
+                    <Projects sourcecode="yes" title="Q-Sales Official Website" image={qsaleswebsite} subtitle="The official Website of Q-Sales" desc="I got hired in 2022 to re-create a responsive website for Q-Sales Technology. And I built it with REACT and SASS" arran="left2right" linkcode="https://github.com/Adeoti/qsaleswebsite" linklive="https://getqsales.com/"/>
+                    <Projects sourcecode="no" title="ASDI International Site" image={asdiimg} subtitle="The official website of a global organization" desc="Back in 2021, I got hired as a freelancer to build the official website  of this organization. I built the site using WORDPRESS, PHOTOSHOP and CSS." arran="right2left" linkcode="" linklive="https://asdi-international.org/"/>
+                    <Projects sourcecode="yes" title="QR-Code Hatch" image={qrcodeimage} subtitle="A free web app to generate custom QR codes" desc="I built this open source web app that generates QR-Codes on the fly; without having to sign up or login. I built the app with HTML, CSS, JQUERY, ETC." arran="left2right" linkcode="https://github.com/Adeoti/Qrcode-hatch" linklive="https://www.qrcode-hatch.com/"/>
+                    <Projects sourcecode="yes" title="Q-Sales Inventory App" image={qsalesapp} subtitle="A web-based inventory application" desc="I was hired to design the interface and some key functionalities of the inventory application; from the main dashboard, to all various admin pages. I used HTML5, CSS3, jQUERY, Bootstrap, PHP, and MySQL." arran="right2left" linkcode="https://github.com/Adeoti/qsalesinventoryapp" linklive="https://github.com/Adeoti/qsalesinventoryapp"/> 
+                    <Projects sourcecode="yes" title="DicIt" image={dicitimg} subtitle="A full-functioning dictionary web app" desc="I created this app with react, and styled it with CSS3, using the CSS BEM methodology. I then powered its functionality with the open source dictionary API." arran="left2right" linkcode="https://github.com/Adeoti/dictionary" linklive="https://dictit.netlify.app/"/>  
                 
                 </div>
           

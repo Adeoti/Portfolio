@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import Resume from './DevAdeotiResume.pdf';
+import Resume from './DevAdeotiResumej.pdf';
 const Navbar = () => {
 
     const [menutoggle, setMenutoggle] = useState(false);
@@ -8,7 +8,6 @@ const Navbar = () => {
       setMenutoggle(!menutoggle);
     }
     
-
 
     const linkedIn = "https://www.linkedin.com/in/adeoti-nurudeen-3ab237265";
     const githublink = "https://github.com/Adeoti";
@@ -34,7 +33,7 @@ const Navbar = () => {
                 </ul>
                     <div className='closer-padding'><button onClick={fireToggle} className="navcloser">&times;</button></div>
                 </div>)}
-                <a className="menu-handler" onClick={fireToggle} href="#">Menu</a>
+                <a className="menu-handler" onClick={fireToggle} href="#">&#9776;</a>
                 </div>
             </div>
         </nav>
