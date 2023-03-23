@@ -1,7 +1,7 @@
 import Projects from "./Projects";
 import qrcodeimage from '../images/qrcodehatchsitelong.png';
 import qsalesapp from '../images/qsalesapp.png';
-import qsaleswebsite from  '../images/qsalessiteimglong.png';
+import qsaleswebsite from  '../images/qsalesimgb.png';
 import asdiimg from '../images/asdiimg.png';
 import dicitimg from '../images/dicitapp.png';
 const  MyProjects  = () => {
