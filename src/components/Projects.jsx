@@ -1,4 +1,4 @@
-const Projects = ({title, sourcecode , subtitle, desc, arran, linklive,linkcode, image}) => {
+const Projects = ({title, liveview , sourcecode , subtitle, desc, arran, linklive,linkcode, image}) => {
     return (
         <div className="projectsingle">
            {
@@ -9,7 +9,9 @@ const Projects = ({title, sourcecode , subtitle, desc, arran, linklive,linkcode,
                 <img src={image} />
                 </div>
                 <div className="details__cta mini">
-                    <a href={linklive} target="_blank">&uArr; See Live</a>
+                    {liveview == 'yes' ? (
+                        <a href={linklive} target="_blank">&uArr; See Live</a>
+                    ) : ''}
                     {sourcecode == 'yes'? (
                         <a href={linkcode} target="_blank">&lt;/&gt; Source code</a>
                     ) : ''}
@@ -22,7 +24,11 @@ const Projects = ({title, sourcecode , subtitle, desc, arran, linklive,linkcode,
                      <p className="desc">{desc}</p>
                     </div>
                     <div className="details__cta maxi">
-                    <a href={linklive} target="_blank">&uArr; See Live</a>
+                    {liveview == 'yes' ? (
+                        <a href={linklive} target="_blank">&uArr; See Live</a>
+                    ) : ''
+
+                    }
                         
                     {sourcecode == 'yes'? (
                         <a href={linkcode} target="_blank">&lt;/&gt; Source code</a>
@@ -41,7 +47,11 @@ const Projects = ({title, sourcecode , subtitle, desc, arran, linklive,linkcode,
                     <p className="desc">{desc}</p>  
                     </div>
                     <div className="details__cta maxi">
-                    <a href={linklive} target="_blank">&uArr; See Live</a>
+                    {liveview == 'yes' ? (
+                        <a href={linklive} target="_blank">&uArr; See Live</a>
+                    ) : ''
+
+                    }
                     {sourcecode == 'yes'? (
                         <a href={linkcode} target="_blank">&lt;/&gt; Source code</a>
                     ) : ''}
