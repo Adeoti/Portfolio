@@ -9,7 +9,7 @@ import giticon from '../skillimages/giticonnew.png';
 import photoshopicon from '../skillimages/photoshop.png';
 import sassicon from '../skillimages/sass.png';
 import Wordpressimg from '../skillimages/wordpress.png';
-import typescriptimg from '../skillimages/typescript.png';
+import phpicon from '../skillimages/php.png';
 import tailwindimg from '../skillimages/tailwindlogoimg.png';
 
 const  Skills  = () => {
@@ -29,6 +29,8 @@ const  Skills  = () => {
                 </div>
                 
                 <div className="skills__cards">
+                    <Skillsicons icon={phpicon} text="PHP"/> 
+                    <Skillsicons icon={Wordpressimg} text="Wordpress"/>
                     <Skillsicons icon={html5icon} text="HTML5"/>
                     <Skillsicons icon={css3icon} text="CSS 3"/>
                     <Skillsicons icon={JavaScripticon} text="JavaScript"/>
@@ -37,10 +39,10 @@ const  Skills  = () => {
                     <Skillsicons icon={bootstrapicon} text="Bootstrap"/>
                     <Skillsicons icon={jquery} text="JQuery"/>
                     <Skillsicons icon={giticon} text="Git"/>
-                    <Skillsicons icon={Wordpressimg} text="Wordpress"/>
+                    
                     <Skillsicons icon={sassicon} text="SaSS"/>
                     <Skillsicons icon={photoshopicon} text="Photoshop"/>
-                    <Skillsicons icon={typescriptimg} text="Typescript"/>
+                    
 
                </div>
 

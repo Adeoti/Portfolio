@@ -20,7 +20,7 @@ const Aboutme = () => {
                 Feel free to reach out to me for your offer and enquiries.
             </p>
             <p>
-            I'm Adeoti Nurudeen, a frontend
+            I'm Adeoti Nurudeen, a WordPress
 developer with over 9 years
 experience in coding and design.
 Over the years, I've built a variety of
@@ -28,6 +28,7 @@ web apps with priority on great user
 experience (ux).
             </p>
             <ul>
+                <li>I've fell in love with WordPress</li>
                 <li>I've built several functional and responsive websites and web apps</li>
                 <li>I've worked with different APIs</li>
                 <li>I learn new skills and stacks quickly</li>
