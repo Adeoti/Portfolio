@@ -1,4 +1,4 @@
-const Projects = ({title, liveview , sourcecode , subtitle, desc, arran, linklive,linkcode, image}) => {
+const Projects = ({title, liveview , livetext, sourcecode , subtitle, desc, arran, linklive,linkcode, image}) => {
     return (
         <div className="projectsingle">
            {
@@ -10,7 +10,7 @@ const Projects = ({title, liveview , sourcecode , subtitle, desc, arran, linkliv
                 </div>
                 <div className="details__cta mini">
                     {liveview == 'yes' ? (
-                        <a href={linklive} target="_blank">&uArr; See Live</a>
+                        <a href={linklive} target="_blank">&uArr; {livetext}</a>
                     ) : ''}
                     {sourcecode == 'yes'? (
                         <a href={linkcode} target="_blank">&lt;/&gt; Source code</a>
@@ -25,7 +25,7 @@ const Projects = ({title, liveview , sourcecode , subtitle, desc, arran, linkliv
                     </div>
                     <div className="details__cta maxi">
                     {liveview == 'yes' ? (
-                        <a href={linklive} target="_blank">&uArr; See Live</a>
+                        <a href={linklive} target="_blank">&uArr; {livetext}</a>
                     ) : ''
 
                     }
@@ -48,7 +48,7 @@ const Projects = ({title, liveview , sourcecode , subtitle, desc, arran, linkliv
                     </div>
                     <div className="details__cta maxi">
                     {liveview == 'yes' ? (
-                        <a href={linklive} target="_blank">&uArr; See Live</a>
+                        <a href={linklive} target="_blank">&uArr; {livetext}</a>
                     ) : ''
 
                     }
@@ -63,7 +63,7 @@ const Projects = ({title, liveview , sourcecode , subtitle, desc, arran, linkliv
               </div>
                 
                 <div className="details__cta mini">
-                    <a href={linklive} target="_blank">&uArr; See Live</a>
+                    <a href={linklive} target="_blank">&uArr; {livetext}</a>
                     {sourcecode == 'yes'? (
                         <a href={linkcode} target="_blank">&lt;/&gt; Source code</a>
                     ) : ''}
