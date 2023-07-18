@@ -1,3 +1,2 @@
 # Portfolio
-My Showcase Portfolio v.1
-Resume added via the react component and the snapshots uploaded
+My portfolio to showcase my recent projects and apps
