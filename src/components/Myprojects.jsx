@@ -3,7 +3,7 @@ import qrcodeimage from '../images/qrcodehatchsitelong.png';
 import qsaleswebsite from  '../images/qsalesimgb.png';
 import asdiimg from '../images/asdi-site-by-adeoti.png';
 import scriptpress from '../images/scriptpress-by-adeoti.jpg';
-import whatsappify from '../images/whatsappify-by-adeoti.jpg';
+import whatsappify from '../images/whatsappify-by-adeoti.png';
 const  MyProjects  = () => {
     return(
       
