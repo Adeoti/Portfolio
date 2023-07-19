@@ -1,16 +1,16 @@
 import React from 'react';
-import Adeotiimg from '../images/adeotiimg.png';
+import Adeotiimg from '../images/adeoti-pp.png';
 
 const Aboutme = () => {
   return (
     <div className="contact" id="about">
     <div className="bridge">
     <div className="contact__panes" style={{gap:'38px'}}>
-          <div className="contact__pane__left" style={{textAlign:'center',order:'1'}}>
+          <div className="contact__pane__left" style={{textAlign:'center',order:'2'}}>
          
             <div className="aboutcaption" style={{marginTop:'14px'}}>
-                <div style={{border:'3px solid #eee', borderRadius:'50%', maxHeight:'400px', overflow:'hidden'}}>
-                    <img src={Adeotiimg}  style={{height:'100%', width:'100%', objectFit:'cover'}} alt='Adeoti'/>
+                <div style={{border:'3px solid #eeeeee', borderRadius:'50%', height:'320px', width:'320px', overflow:'hidden'}}>
+                    <img src={Adeotiimg}  style={{height:'100%', width:'100%', objectFit:'cover', transform:'scale(1)'}} alt='Adeoti'/>
                 </div>
             </div>
           </div>
