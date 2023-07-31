@@ -20,8 +20,7 @@ const Aboutme = () => {
                 Feel free to reach out to me for your offer and enquiries.
             </p>
             <p>
-            I'm Adeoti Nurudeen, a WordPress
-developer with over 9 years
+            I'm Adeoti Nurudeen, a Fullstack Developer with over 9 years
 experience in coding and design.
 Over the years, I've built a variety of
 web apps with priority on great user

@@ -19,7 +19,7 @@ const Hero = () => {
                         initial={{x:410}}
                         animate={{x:0}}
                         transition={{duration:1.2}}>
-                            A WordPress Developer with over 9 years of coding and design experience.
+                            A Fullstack Developer, with expertise in PHP, Laravel, and WordPress Development. Coding and Designing for over 9 years.
                         </motion.p><br/><br/>
                         <a href={Resume} className="cta">
                        <FontAwesomeIcon icon={faHeart} /> Resume</a>

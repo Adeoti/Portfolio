@@ -11,6 +11,7 @@ import sassicon from '../skillimages/sass.png';
 import Wordpressimg from '../skillimages/wordpress.png';
 import phpicon from '../skillimages/php.png';
 import tailwindimg from '../skillimages/tailwindlogoimg.png';
+import laravelimg from '../skillimages/laravel-icon.png';
 
 const  Skills  = () => {
     return(
@@ -42,6 +43,7 @@ const  Skills  = () => {
                     
                     <Skillsicons icon={sassicon} text="SaSS"/>
                     <Skillsicons icon={photoshopicon} text="Photoshop"/>
+                    <Skillsicons icon={laravelimg} text="Laravel"/>
                     
 
                </div>
